@@ -12,9 +12,9 @@ header {
     grid-template-rows: auto auto auto;
     background-color: #173e59;
     color: white;
-    
-
+    margin-top: 0;    
 }
+
 h1{
     font-size: 350%;
     grid-row: 2;
