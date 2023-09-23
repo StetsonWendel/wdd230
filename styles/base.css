@@ -37,9 +37,13 @@ nav {
     background-color: black;
     text-align: center;
     font-size: 200%;
+    display: flex;
+	flex-direction: column;
+    padding: 2rem;
+
 }
 
-nav a:link, nav a:visited, nav a:active{
+nav a{
     color: white;
     text-decoration: none;
 }
@@ -51,7 +55,7 @@ nav a:hover{
 
 h2 {
     text-align: center;
-    font-size: 200%;
+    font-size: 25px;
     text-decoration: underline;
 }
 
@@ -59,7 +63,6 @@ h3{
     text-align: center;
     background-color: #173e59;
     color: white;
-    margin: 10%;
     padding: 2%;
 }
 

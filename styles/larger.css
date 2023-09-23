@@ -1,0 +1,25 @@
+@media screen and (min-width: 900px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    main h2 {
+        border-bottom: none;
+    }
+
+    .card {
+        margin: 0 60px;
+        margin-bottom: 2%;
+    }
+
+    .learning {
+        grid-row: 2;
+        /* grid-column: 2; */
+    }
+}
