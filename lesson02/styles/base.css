@@ -1,0 +1,56 @@
+html {
+	--primary-color: #d8d8d8;
+	--secondary-color: #173e59;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 900px;
+
+}
+
+header {
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: var(--primary-color);
+    margin: 1rem auto;
+    border-radius: 3%;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+section h2, section p, section h3{
+    text-align: left;
+    padding: 1rem;
+    margin: 0;
+}
+
+section h2 {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+
+a {
+    text-align: left;
+    padding: 1rem;
+}
+
+
+img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding: 1rem;
+}
+
+footer {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
